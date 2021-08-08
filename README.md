@@ -1,4 +1,4 @@
-This repository contains C++ code for the Data Structures and algorithms
+This repository contains C++ code for the below Data Structures and algorithms
 
 Data Structures and Algorithms
 1. Arrays
