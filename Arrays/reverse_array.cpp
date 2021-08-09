@@ -15,17 +15,17 @@ void reverse_array(int arr[], int n){
 
 
 int main(){
-int arr[] = {5,12,20,20,10};
-int n = sizeof(arr)/sizeof(arr[0]);
-cout<<"Before Array reversal";
-for(int i=0;i<n;i++){
-    cout<<" "<<arr[i]<<" ";
-}
-cout<<endl;
-reverse_array(arr, n);
-cout<<"After Array reversal";
-for(int i=0;i<n;i++){
-    cout<<" "<<arr[i]<<" ";
-}
-return 0;
+    int arr[] = {5,12,20,20,10};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    cout<<"Before Array reversal";
+    for(int i=0;i<n;i++){
+        cout<<" "<<arr[i]<<" ";
+    }
+    cout<<endl;
+    reverse_array(arr, n);
+    cout<<"After Array reversal";
+    for(int i=0;i<n;i++){
+        cout<<" "<<arr[i]<<" ";
+    }
+    return 0;
 }
