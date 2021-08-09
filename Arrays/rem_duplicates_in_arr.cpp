@@ -13,8 +13,6 @@ int remove_dups(int arr[], int n){
     return res;
 }
 
-
-
 int main() {
 
       int arr[] = {10, 20, 20, 30, 30, 30};
