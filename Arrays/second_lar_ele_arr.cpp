@@ -17,8 +17,8 @@ int res =-1, largest =0;
 }
 
 int main(){
-int arr[] = {5,12,20,20,10};
-int n = sizeof(arr)/sizeof(arr[0]);
-cout<<second_largest(arr,n)<<" ";
-return 0;
+    int arr[] = {5,12,20,20,10};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    cout<<second_largest(arr,n)<<" ";
+    return 0;
 }
