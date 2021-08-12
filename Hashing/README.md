@@ -1,1 +1,1 @@
-This folder contains C++ code for the Hashing problems.
+This directory contains C++ code for the Hashing problems.
