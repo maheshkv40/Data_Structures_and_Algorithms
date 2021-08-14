@@ -4,7 +4,7 @@ using namespace std;
 void merge_array(int a[],int b[], int n, int m){
     int i=0,j=0;
     while(i<n && j<m){
-        if(a[i]<b[j]){
+        if(a[i]<=b[j]){
             cout<<a[i++]<<" ";
         }
         else{
