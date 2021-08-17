@@ -16,7 +16,6 @@ int hoare_partition(int arr[], int low, int high){
             return j;
         swap(arr[i], arr[j]);
     }
-
 }
 
 
