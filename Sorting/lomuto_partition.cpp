@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+# Lomuto partition for quick sort algorithm
+
 int lomuto_Partition(int arr[], int low, int high){
     int pivot = arr[high];
     int i = low -1;
