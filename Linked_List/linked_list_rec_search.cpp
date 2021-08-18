@@ -20,8 +20,20 @@ void printll(Node *head){
 
 }
 
+int search(Node *head, int x){
+    if(head == NULL)
+        return -1;
+    if(head->data == x)
+        return 1;
+    else{
+        int res = search(head->next, x);
+        if(res== -1)
+            return -1;
+        else
+            return(res+1);
+    }
 
-
+}
 
 int main(){
     Node *head = new Node(10);
@@ -31,6 +43,7 @@ int main(){
     temp1->next= temp2;
     printll(head);
     cout<<endl;
+    cout<<"the element is found at"<<" "<<search(head,30);
     return 0;
 
 
