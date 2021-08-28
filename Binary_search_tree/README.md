@@ -1,0 +1,1 @@
+This directory contains C++ code for the Binary Search Tree problems.
