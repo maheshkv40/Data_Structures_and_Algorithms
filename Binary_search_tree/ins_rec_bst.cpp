@@ -13,6 +13,8 @@ struct Node{
 
 };
 
+// Insert a new node into BST using recursive function
+
 Node *rec_ins(Node *root, int x){
     Node *temp =new Node(x);
     if(root == NULL){
