@@ -13,6 +13,7 @@ struct Node{
 
 };
 
+// If parent node is deleted, this function finds the In order sucessor
 Node *get_successor(Node *curr){
     curr=curr->right;
     while(curr!=NULL && curr->left!=NULL)
