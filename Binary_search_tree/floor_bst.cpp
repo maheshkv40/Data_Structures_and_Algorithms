@@ -1,3 +1,5 @@
+// If the value is present, the floor returns the exact value, else returns the closest lower bound
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -12,6 +14,8 @@ struct Node{
     }
 
 };
+
+// floor functions returns the exact value, else returns the closest lower bound
 
 Node *floor(Node *root, int x){
     Node *curr  = NULL;
