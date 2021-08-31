@@ -13,6 +13,7 @@ struct Node{
 
 };
 
+// Insert a new node into BST using iterative function
 Node *iter_ins(Node *root, int x){
     Node *temp =new Node(x);
     Node *parent =NULL, *curr =root;
