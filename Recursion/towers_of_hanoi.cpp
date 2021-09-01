@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+// Recursive method of towers of hanoi
 void Tower_of_hanoi(int n, char A, char B, char C)
 {
     if (n == 1)
