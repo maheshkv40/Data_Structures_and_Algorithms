@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Hashing 
 struct chain{
     int bucket;
     list <int>* table;
