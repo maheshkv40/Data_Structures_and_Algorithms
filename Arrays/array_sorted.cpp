@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+ // Bool function returns array is sorted or not
 bool arr_sorted(int arr[], int n){
 
 for(int i=1;i<n;i++){
